@@ -1,0 +1,38 @@
+.menu {
+  height: 100vh;
+  background-color: #0F172A;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  transition: ease-in-out .15s;
+  z-index: 2;
+}
+.menuIcon {
+  width: 30px;
+}
+
+.menuItem {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px 0px;
+  margin-top: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuText {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.active {
+  background-color: #746AE8;
+}
+.active path {
+  fill: #fff;
+}
