@@ -1,14 +1,15 @@
-
+import contentsStyle from '../../styles/Contents.module.css';
+import Weather from './Weather';
 
 function Contents() {
   return (
-    <div className="content">
-      <div className="content-head">
-        <p className="head-text">ようこそ〇〇さま</p>
-        <div className="head-btn-wrapper">
+    <div className={contentsStyle.content}>
+      <div className={contentsStyle.contentHead}>
+        <p className={contentsStyle.headText}>ようこそ〇〇さま</p>
+        <div className={contentsStyle.headBtnWrapper}>
           <button
             type="button"
-            className="contact-btn"
+            className={contentsStyle.contactBtn}
             onClick={() => { window.location.href = "https://www.wantedly.com/id/sizumi" }}
           >
             お問合わせ
@@ -17,25 +18,20 @@ function Contents() {
         </div>
       </div>
       {/* main-content */}
-      <div className="main-content">
-        <div className="breadcrumb">トップ</div>
+      <div className={contentsStyle.mainContent}>
+        <div className={contentsStyle.breadcrumb}>トップ</div>
         {/* ここまで */}
-        <div className="main-inner">
+        <div className={contentsStyle.mainInner}>
           {/* number_content  */}
-          <div className="number-wrapper">
-            <div className="number-container">
-              <Weather
-                lat={lat}
-                lon={lon}
-                name={prefName}
-                state={openModal}
-              />
-              <Day />
-              <div className="container-item">
+          <div className={contentsStyle.numberWrapper}>
+            <div className={contentsStyle.numberContainer}>
+              <Weather />
+              {/* <Day /> */}
+              <div className={contentsStyle.containerItem}>
                 <div className="container-inner schedule-inner">
-                  <p className="number-text">本日の予定</p>
+                  <p className={contentsStyle.numberText}>本日の予定</p>
                   <div className="number-flex schedule-flex">
-                    <p className="flex-text">
+                    <p className={contentsStyle.flexText}>
                       <span className="flex-num item3">10</span>
                     </p>
                   </div>
@@ -45,14 +41,14 @@ function Contents() {
             </div>
           </div>
           <div className="wrapper">
-            <div className="wrapper-container">
-              <Pie />
-              <Ranking />
+            <div className={contentsStyle.wrapperContainer}>
+              {/* <Pie /> */}
+              {/* <Ranking /> */}
             </div>
-            <div className="acutual-result-wrapper">
-              <div className="result-inner">
-                <h4 className="wrapper-title" />
-                <div className="result-table-wrapper">現在準備中</div>
+            <div className={contentsStyle.acutualResultWrapper}>
+              <div className={contentsStyle.resultInner}>
+                <h4 className={contentsStyle.wrapperTitle}></h4>
+                <div className={contentsStyle.resultTableWrapper}>現在準備中</div>
               </div>
             </div>
           </div>

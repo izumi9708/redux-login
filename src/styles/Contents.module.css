@@ -1,0 +1,200 @@
+.breadcrumb {
+  padding-left: 30px;
+  font-size: 1.2rem;
+}
+.content {
+  padding-top: 60px;
+  padding-left: 200px;
+  height: 100vh;
+  transition: ease-in-out .3s;
+}
+.contentHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+}
+.pageTitle {
+  font-size: 2.2rem;
+}
+
+/* main_content */
+.mainContent {
+  width: 100%;
+  background-color: #F1F5F9;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.headText {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contactBtn {
+  background: #ED314E;
+  border: none;
+  padding: 5px 30px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+
+}
+.logoutBtn {
+  background: #BFBFBF;
+  border: none;
+  padding: 5px 30px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.horizontalTitle {
+  color: #08b77b;
+  border-bottom: solid 2px #08b77b;
+  padding-left: 10px;
+}
+
+.verticalTitle {
+  font-size: 1.8rem;
+}
+.verticalTitle::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 25px;
+  background-color: #08b77b;
+  vertical-align: bottom;
+  border-radius: 3px;
+  margin-right: 5px;    
+}
+.searchBtn {
+  padding: 0px 50px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: #009A69;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outputBtn {
+  padding: 10px 65px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #009A69;
+  font-weight: bold;
+  cursor: pointer;
+}
+.confirmBtn {
+  padding: 10px 65px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #009A69;
+  font-weight: bold;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+.modalCancelBtn {
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #cfcfcf;
+  color: #545454;
+}
+.modalConfirmBtn {
+  border: none;
+  padding: 8px 55px;
+  border-radius: 5px;
+  background-color: #009A69;
+  color: #fff;
+  font-weight: bold;
+}
+.anyBtn {
+  margin-top: 20px;
+  padding: 4px 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background-color: #009A69;
+  color: #fff;
+}
+.anyIcon {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainInner {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+.vacancyWrapper {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+}
+.numberText {
+  font-weight: bold;
+  text-align: center;
+}
+.num {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 5px;
+  color: #f8af0d;
+}
+
+.numberContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.containerItem {
+  background-color: #fff;
+  padding: 15px 0;
+  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+  border-radius: 15px;
+  width: 30%;
+}
+.numberFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 0; */
+}
+.flexNum {
+  font-size: 4rem;
+  padding: 0 5px;
+}
+.settingPlace {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7469e8;
+}
+.flexSvg {
+  width: 50px;
+}
+.flexText {
+  font-weight: bold;
+  font-size: 3rem;
+}
