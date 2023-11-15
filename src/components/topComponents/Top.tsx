@@ -1,6 +1,8 @@
 // component 
 import Header from "./Header";
 import Menu from "./Menu";
+import Contents from "./Contents";
+
 
 function Top() {
   return (
@@ -8,7 +10,7 @@ function Top() {
       <Header />
       <div className='flex'>
         <Menu />
-        
+        <Contents/>
       </div>
     </div>
   )
