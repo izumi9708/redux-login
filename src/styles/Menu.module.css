@@ -36,3 +36,16 @@
 .active path {
   fill: #fff;
 }
+
+@media screen and (max-width:900px){
+  .menu {
+      left: -200px;
+  }
+  .content {
+      padding-left: 0;
+  }
+  .menuActive {
+      left: 0;
+      transition: ease-in-out .15s;
+  }
+}

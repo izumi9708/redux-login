@@ -1,5 +1,7 @@
 import contentsStyle from '../../styles/Contents.module.css';
 import Weather from './Weather';
+import Day from './Day';
+import Task from './Task';
 
 function Contents() {
   return (
@@ -26,18 +28,8 @@ function Contents() {
           <div className={contentsStyle.numberWrapper}>
             <div className={contentsStyle.numberContainer}>
               <Weather />
-              {/* <Day /> */}
-              <div className={contentsStyle.containerItem}>
-                <div className="container-inner schedule-inner">
-                  <p className={contentsStyle.numberText}>本日の予定</p>
-                  <div className="number-flex schedule-flex">
-                    <p className={contentsStyle.flexText}>
-                      <span className="flex-num item3">10</span>
-                    </p>
-                  </div>
-                  <p className="link-text schedule">他３個のタスク</p>
-                </div>
-              </div>
+              <Day />
+              <Task />
             </div>
           </div>
           <div className="wrapper">
