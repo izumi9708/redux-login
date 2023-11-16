@@ -198,3 +198,66 @@ a {
   font-weight: bold;
   font-size: 3rem;
 }
+.date {
+  font-size: 3.5rem;
+  width: auto;
+  font-weight: bold;
+  margin: 5px;
+  color: #575757;
+}
+.year {
+  font-size: 2rem;
+  color: #786ce8;
+}
+.day {
+  font-size: 2rem;
+}
+.dateWrapper {
+  margin-top: 5px;
+}
+.flexDate {
+  display: block;
+  text-align: center;
+}
+.pointItem {
+  cursor: pointer;
+}
+.pointItem:hover {
+  opacity: 0.8;
+}
+.schedule {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ed314f;
+  text-align: center;
+}
+.scheduleFlex {
+  padding: 5px 0;
+}
+.scheduleInner {
+  margin-top: 5px;
+}
+
+@media screen and (max-width:900px){
+  .mainInner {
+      padding-top: 20px;
+  }
+  .numberContainer {
+      display: block;
+
+  }
+  .containerItem {
+      width: 100%;
+      margin-top: 20px;
+  }
+  .containerItem:first-of-type {
+      margin-top: 0;
+  }
+  .numberContainer {
+      margin-top: 0;
+  }
+  .humberger {
+      display: block;
+  }
+
+}
