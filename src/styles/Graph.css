@@ -1,0 +1,52 @@
+.own-store {
+  stroke: #736be7; 
+  animation: own-store 1.5s ease-in-out forwards;
+}
+
+.own-store:hover {
+  filter: brightness(120%) 
+
+}
+.another-store {
+  stroke: #3c3497;
+  animation:another-store 1.5s ease-in-out forwards;
+}
+.another-store:hover {
+  filter: brightness(110%)
+}
+.else-company {
+  stroke: #3F51B5;
+  animation: else-company 1.5s ease-in-out forwards;
+}
+.else-company:hover {
+  filter: brightness(120%)
+}
+.hoge {
+  stroke: #2196F3;
+  animation:hoge 1.5s ease-in-out forwards;
+}
+.hoge:hover {
+  filter: brightness(120%)
+}
+.select-pie {
+  background-color: rgb(0 0 0 / 72%);
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,10px);
+}
+.pie-color {
+  width: 15px;
+  height: 15px;
+  border: solid 1px #cdcdcdcc;
+}
+.pie-text {
+  color: #fff;
+}

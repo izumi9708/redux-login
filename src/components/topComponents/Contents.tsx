@@ -2,6 +2,7 @@ import contentsStyle from '../../styles/Contents.module.css';
 import Weather from './Weather';
 import Day from './Day';
 import Task from './Task';
+import Graph from './Graph';
 
 function Contents() {
   return (
@@ -34,7 +35,7 @@ function Contents() {
           </div>
           <div className="wrapper">
             <div className={contentsStyle.wrapperContainer}>
-              {/* <Pie /> */}
+              <Graph />
               {/* <Ranking /> */}
             </div>
             <div className={contentsStyle.acutualResultWrapper}>
