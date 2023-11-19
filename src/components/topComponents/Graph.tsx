@@ -86,7 +86,7 @@ function Graph() {
       ownPie.style.filter = 'brightness(70%)';
       elsePie.style.filter = 'brightness(70%)';
       hoge.style.filter = 'brightness(70%)';
-      pieColor.style.backgroundColor = '#3c3497';
+      pieColor.style.backgroundColor = '#0F172A';
       pieText.textContent = `${percent2}%`
 
     } else if ((e.target as HTMLElement).classList.contains('else-company')) {

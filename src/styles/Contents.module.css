@@ -238,6 +238,110 @@ a {
   margin-top: 5px;
 }
 
+.wrapperContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+
+.rankingWrapper {
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+.rankingTitleContainer {
+  display: flex;
+  border-bottom: solid 2px #c6c6c6;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  position: relative;
+}
+.selectUnderline{
+  display: inline-block;
+  width: 33.3%;
+  background-color: #746AE8;
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+}
+.leftUnderLine {
+  left: 0;
+  transition:  ease-in-out .3s;
+}
+.centerUnderLine {
+  left: 33.3%;
+  transition:  ease-in-out .3s;
+}
+.rightUnderLine {
+  left: 66.6%;
+  transition:  ease-in-out .3s;
+}
+.rankingContent {
+  margin-top: 20px;
+}
+.rankingContentInner {
+  width: 80%;
+  margin: auto;
+}
+.rankingItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-bottom: solid 1px #e1e1e1;
+  padding-bottom: 10px;
+}
+
+.rankingTitle {
+  width: 33.3%;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #c6c6c6;
+  cursor: pointer;
+}
+.selectRankingColor {
+  color: #746AE8;
+}
+.rankingInner {
+  width: 80%;
+  margin: auto;
+}
+.rankingNumberBg {
+  width: 30px;
+  height: 30px;
+  background-color: #746AE8;
+  border-radius: 100px;
+  position: relative;
+}
+.rankingNumber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+.rankingText {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.rankingFlex {
+  height: 260px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.rankingOverview {
+  display: flex;
+  width: 100%;
+}
+.rankingFlexItem {
+  width: 100%;
+}
+
+
 @media screen and (max-width:900px){
   .mainInner {
       padding-top: 20px;
