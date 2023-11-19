@@ -3,6 +3,7 @@ import Weather from './Weather';
 import Day from './Day';
 import Task from './Task';
 import Graph from './Graph';
+import Ranking from './Ranking';
 
 function Contents() {
   return (
@@ -36,7 +37,7 @@ function Contents() {
           <div className="wrapper">
             <div className={contentsStyle.wrapperContainer}>
               <Graph />
-              {/* <Ranking /> */}
+              <Ranking />
             </div>
             <div className={contentsStyle.acutualResultWrapper}>
               <div className={contentsStyle.resultInner}>
