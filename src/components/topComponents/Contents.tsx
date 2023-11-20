@@ -18,7 +18,7 @@ function Contents() {
           >
             お問合わせ
           </button>
-          {/* <button type="button" class="logout-btn">ログアウト</button> */}
+          <button type="button" className={contentsStyle.logoutBtn}>ログアウト</button>
         </div>
       </div>
       {/* main-content */}
