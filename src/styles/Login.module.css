@@ -1,0 +1,30 @@
+.login {
+  position: relative;
+  height: 100vh;
+  background-color: #0F172A;
+}
+.loginWrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 500px;
+  background-color: #fff;
+  padding: 30px 10px;
+  border-radius: 5px;
+}
+.loginText {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.loginBtn {
+  font-size: 1.5rem;
+  width: 200px;
+}
+.btnWrap {
+  margin-top: 20px;
+}
+.inputStyle {
+  font-size: 16px;
+}
