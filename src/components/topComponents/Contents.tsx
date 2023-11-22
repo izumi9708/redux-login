@@ -4,8 +4,14 @@ import Day from './Day';
 import Task from './Task';
 import Graph from './Graph';
 import Ranking from './Ranking';
+import { useDispatch } from "react-redux";
+import { changeLoginStatus } from '../../futures/status';
+
 
 function Contents() {
+
+  const dispatch = useDispatch();
+
   return (
     <div className={contentsStyle.content}>
       <div className={contentsStyle.contentHead}>
@@ -18,7 +24,13 @@ function Contents() {
           >
             お問合わせ
           </button>
-          <button type="button" className={contentsStyle.logoutBtn}>ログアウト</button>
+          <button
+            type="button"
+            className={contentsStyle.logoutBtn}
+            onClick={() => dispatch(changeLoginStatus())}
+          >
+            ログアウト
+          </button>
         </div>
       </div>
       {/* main-content */}

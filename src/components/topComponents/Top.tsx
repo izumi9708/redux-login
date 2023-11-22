@@ -5,12 +5,13 @@ import Contents from "./Contents";
 
 
 function Top() {
+
   return (
     <div className="topComtents">
       <Header />
       <div className='flex'>
         <Menu />
-        <Contents/>
+        <Contents />
       </div>
     </div>
   )
