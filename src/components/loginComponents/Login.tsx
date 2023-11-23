@@ -2,7 +2,7 @@ import { Button, TextField } from "@mui/material";
 import loginStyles from '../../styles/Login.module.css';
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { changeTopStatus } from '../../futures/status';
+import { changeTopStatus, setName } from '../../futures/status';
 
 function Login() {
   const [inputStatus, setInputStatus] = useState(false);
@@ -12,9 +12,9 @@ function Login() {
     const textField = document.getElementById('outlined-basic') as HTMLInputElement;
 
     if (textField.value.replace(/\s+/g, "") !== '') {
-      console.log(textField.value);
       setInputStatus(false);
-      dispatch(changeTopStatus())
+      dispatch(changeTopStatus());
+      dispatch(setName(textField.value))
 
     } else {
       alert('名前を入力してください');

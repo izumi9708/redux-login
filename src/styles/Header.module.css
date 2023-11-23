@@ -21,3 +21,13 @@
   height: 30px;
   fill: #736ae7;
 }
+.humberger {
+  display: none;
+}
+
+@media screen and (max-width:900px) {
+  .humberger {
+    display: block;
+    cursor: pointer;
+  }
+}
