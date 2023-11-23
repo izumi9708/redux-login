@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 interface State {
   status: {
     status: string
+    name: string
   }
 }
 

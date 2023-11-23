@@ -2,12 +2,14 @@
   padding-left: 30px;
   font-size: 1.2rem;
 }
+
 .content {
   padding-top: 60px;
   padding-left: 200px;
   height: 100vh;
   transition: ease-in-out .3s;
 }
+
 .contentHead {
   display: flex;
   justify-content: space-between;
@@ -15,6 +17,7 @@
   height: 100px;
   padding: 0 20px;
 }
+
 .pageTitle {
   font-size: 2.2rem;
 }
@@ -26,10 +29,12 @@
   padding-top: 10px;
   padding-bottom: 40px;
 }
+
 .headText {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .contactBtn {
   background: #ED314E;
   border: none;
@@ -40,8 +45,9 @@
   cursor: pointer;
 
 }
+
 .logoutBtn {
-  background: #BFBFBF;
+  background: #7469e8;
   border: none;
   padding: 5px 30px;
   font-size: 1.5rem;
@@ -60,6 +66,7 @@
 .verticalTitle {
   font-size: 1.8rem;
 }
+
 .verticalTitle::before {
   content: '';
   display: inline-block;
@@ -68,8 +75,9 @@
   background-color: #08b77b;
   vertical-align: bottom;
   border-radius: 3px;
-  margin-right: 5px;    
+  margin-right: 5px;
 }
+
 .searchBtn {
   padding: 0px 50px;
   height: 36px;
@@ -80,6 +88,7 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 .outputBtn {
   padding: 10px 65px;
   border: none;
@@ -89,6 +98,7 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 .confirmBtn {
   padding: 10px 65px;
   border: none;
@@ -98,12 +108,15 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 button {
   cursor: pointer;
 }
+
 button:hover {
   opacity: 0.8;
 }
+
 .modalCancelBtn {
   border: none;
   padding: 8px 25px;
@@ -113,6 +126,7 @@ button:hover {
   background-color: #cfcfcf;
   color: #545454;
 }
+
 .modalConfirmBtn {
   border: none;
   padding: 8px 55px;
@@ -121,6 +135,7 @@ button:hover {
   color: #fff;
   font-weight: bold;
 }
+
 .anyBtn {
   margin-top: 20px;
   padding: 4px 5px;
@@ -130,6 +145,7 @@ button:hover {
   background-color: #009A69;
   color: #fff;
 }
+
 .anyIcon {
   display: inline-block;
   width: 20px;
@@ -145,17 +161,20 @@ a {
   margin: auto;
   padding-top: 40px;
 }
+
 .vacancyWrapper {
   background-color: #fff;
   width: 300px;
   padding: 20px 10px;
   border-radius: 10px;
-  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+  filter: drop-shadow(0px 0px 5px rgba(174, 174, 174, 0.6));
 }
+
 .numberText {
   font-weight: bold;
   text-align: center;
 }
+
 .num {
   font-size: 3rem;
   font-weight: bold;
@@ -169,36 +188,43 @@ a {
   justify-content: space-between;
 
 }
+
 .containerItem {
   background-color: #fff;
   padding: 15px 0;
-  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+  filter: drop-shadow(0px 0px 5px rgba(174, 174, 174, 0.6));
   border-radius: 15px;
   width: 30%;
 }
+
 .numberFlex {
   display: flex;
   align-items: center;
   justify-content: center;
   /* padding: 10px 0; */
 }
+
 .flexNum {
   font-size: 4rem;
   padding: 0 5px;
 }
+
 .settingPlace {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   color: #7469e8;
 }
+
 .flexSvg {
   width: 50px;
 }
+
 .flexText {
   font-weight: bold;
   font-size: 3rem;
 }
+
 .date {
   font-size: 3.5rem;
   width: auto;
@@ -206,35 +232,44 @@ a {
   margin: 5px;
   color: #575757;
 }
+
 .year {
   font-size: 2rem;
   color: #786ce8;
 }
+
 .day {
   font-size: 2rem;
 }
+
 .dateWrapper {
   margin-top: 5px;
 }
+
 .flexDate {
   display: block;
   text-align: center;
 }
+
 .pointItem {
   cursor: pointer;
 }
+
 .pointItem:hover {
   opacity: 0.8;
 }
+
 .schedule {
   font-size: 1.8rem;
   font-weight: bold;
   color: #ed314f;
   text-align: center;
 }
+
 .scheduleFlex {
   padding: 5px 0;
 }
+
 .scheduleInner {
   margin-top: 5px;
 }
@@ -248,11 +283,12 @@ a {
 
 .rankingWrapper {
   background-color: #fff;
-  filter: drop-shadow(0px 0px 5px rgba(174,174,174,0.6));
+  filter: drop-shadow(0px 0px 5px rgba(174, 174, 174, 0.6));
   width: 50%;
   border-radius: 10px;
   padding: 30px 0;
 }
+
 .rankingTitleContainer {
   display: flex;
   border-bottom: solid 2px #c6c6c6;
@@ -260,7 +296,8 @@ a {
   margin-top: 20px;
   position: relative;
 }
-.selectUnderline{
+
+.selectUnderline {
   display: inline-block;
   width: 33.3%;
   background-color: #746AE8;
@@ -268,25 +305,31 @@ a {
   position: absolute;
   bottom: -2px;
 }
+
 .leftUnderLine {
   left: 0;
-  transition:  ease-in-out .3s;
+  transition: ease-in-out .3s;
 }
+
 .centerUnderLine {
   left: 33.3%;
-  transition:  ease-in-out .3s;
+  transition: ease-in-out .3s;
 }
+
 .rightUnderLine {
   left: 66.6%;
-  transition:  ease-in-out .3s;
+  transition: ease-in-out .3s;
 }
+
 .rankingContent {
   margin-top: 20px;
 }
+
 .rankingContentInner {
   width: 80%;
   margin: auto;
 }
+
 .rankingItemContainer {
   display: flex;
   align-items: center;
@@ -304,13 +347,16 @@ a {
   color: #c6c6c6;
   cursor: pointer;
 }
+
 .selectRankingColor {
   color: #746AE8;
 }
+
 .rankingInner {
   width: 80%;
   margin: auto;
 }
+
 .rankingNumberBg {
   width: 30px;
   height: 30px;
@@ -318,51 +364,70 @@ a {
   border-radius: 100px;
   position: relative;
 }
+
 .rankingNumber {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
 }
+
 .rankingText {
   font-size: 1.5rem;
   margin-left: 20px;
 }
+
 .rankingFlex {
   height: 260px;
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 .rankingOverview {
   display: flex;
   width: 100%;
 }
+
 .rankingFlexItem {
   width: 100%;
 }
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .mainInner {
-      padding-top: 20px;
+    padding-top: 20px;
   }
+
   .numberContainer {
-      display: block;
+    display: block;
 
   }
+
   .containerItem {
-      width: 100%;
-      margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
   }
+
   .containerItem:first-of-type {
-      margin-top: 0;
+    margin-top: 0;
   }
+
   .numberContainer {
-      margin-top: 0;
+    margin-top: 0;
   }
-  .humberger {
-      display: block;
+
+  .content {
+    padding-left: 0;
+  }
+
+  .wrapperContainer {
+    display: block;
+  }
+
+  .rankingWrapper {
+    width: 100%;
+    margin-top: 20px;
   }
 
 }
